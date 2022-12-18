@@ -95,6 +95,11 @@ section {
   margin: 100px auto;
 }
 
+#video-container {
+  display: flex;
+  justify-content: center;
+}
+
 /* box */
 
 header {
@@ -148,6 +153,10 @@ h3 {
   color: var(--white);
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 /* color bg */
 
 .bg-pic::before {
@@ -158,6 +167,15 @@ h3 {
   opacity: 0.1;
   background-clip: border-box;
 }
+
+header h1 {
+  color: var(--main);
+}
+
+header h1 span {
+  color: var(--dark);
+}
+
 
 a {
   text-decoration: none;
