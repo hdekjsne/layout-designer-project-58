@@ -12,7 +12,7 @@
 
 <body>
   <header>
-    <div id="bg"></div>
+    <div class="bg"></div>
     <img src="../assets/img/main.png" alt="" id="header-img">
     <section class="content">
       <h1><span style="color: #fe8a02;">Когнитивные<br>
@@ -23,59 +23,93 @@
         <div style="display: flex; flex-direction: column; width: 50%; align-items: flex-start;">
           <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
           <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
-          <a href="#nav" class="btn">подробнее</a>
+          <a href="#around-nav" class="btn">подробнее</a>
         </div>
       </div>
     </section>
   </header>
   <main>
-    <section>
+    <section style="height: 100vh;">
       <section class="content" style="display: flex; flex-direction: column; align-items: center;">
         <h2 style="margin: 0 0 30px 0; text-align: center;">Что же это такое,<br>
           <span style="color: #fe8a02;">когнитивные искажения?</span>
         </h2>
         <p style="text-align: center; margin: 0 0 30px 0;">Что такое когнитивные искажения. Petrovna Channel</p>
-        <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen style="flex-shrink: 0; filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));"></iframe>
+        <iframe class="video filter" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen style="flex-shrink: 0;"></iframe>
       </section>
     </section>
     <section style="padding-top: 200px;" id="around-nav">
       <section class="content" id="nav">
-        <h2 style="font-size: 52px;"><span style="color: #fe8a02;">5 когнитивных<br>
-          искажений</span><br>
-          <span style="color: white;">о существовании<br>
-          которых стоит<br>
-          помнить</span>
-        </h2>
+        <div class="nav-item" style="background-color: transparent; padding: 0;">
+          <h2 style="font-size: 52px;"><span style="color: #fe8a02;">5 когнитивных<br>
+            искажений</span><br>
+            <span style="color: white;">о существовании<br>
+            которых стоит<br>
+            помнить</span>
+          </h2>
+        </div>
         <div class="nav-item">
+          <a href="#ikea-effect" class="nav-a"></a>
           <h2 class="nav-digit">1</h2>
+          <h3 class="nav-item-name">Эффект ИКЕА</h3>
+          <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
         </div>
         <div class="nav-item">
+          <a href="#around-optimization" class="nav-a"></a>
           <h2 class="nav-digit">2</h2>
+          <h3 class="nav-item-name">Преждевременная оптимизация</h3>
+          <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
         </div>
         <div class="nav-item">
+          <a href="#around-new" class="nav-a"></a>
           <h2 class="nav-digit">3</h2>
+          <h3 class="nav-item-name">Искажение новизны</h3>
+          <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
         </div>
         <div class="nav-item">
+          <a href="#around-disvalue" class="nav-a"></a>
           <h2 class="nav-digit">4</h2>
+          <h3 class="nav-item-name">Гиперболическое обесценивание</h3>
+          <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
         </div>
         <div class="nav-item">
+          <a href="#around-planning" class="nav-a"></a>
           <h2 class="nav-digit">5</h2>
+          <h3 class="nav-item-name">Ошибка планирования</h3>
+          <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
         </div>
       </section>
     </section>
-    <section>
+    <section id="ikea-effect" style="position: relative;">
+      <div class="bg"></div>
+      <section class="content">
+        <div class="double-text-content" style="margin-bottom: 100px;">
+          <div style="flex-grow: 0; flex-shrink: 0;">
+            <img src="../assets/img/1-2.png" alt="" class="filter" style="vertical-align: middle;">
+          </div>
+          <div>
+            <h3 class="smallest-h">Конитивные искажения</h3>
+            <h1 style="margin-bottom: 30px;">Эффект ИКЕА</h1>
+            <h3>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</h3>
+          </div>
+        </div>
+        <p style="margin-bottom: 20px;" class="how-brown">КАК ПРОЯВЛЯЕТСЯ</p>
+        <div class="double-text-content">
+          <p style="width: 50%;">Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.</p>
+          <p style="width: 50%;">Мы склонны переоценивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.</p>
+        </div>
+      </section>
+    </section>
+    <section id="around-optimization">
       <section class="content"></section>
     </section>
-    <section>
+    <section id="around-new">
       <section class="content"></section>
     </section>
-    <section>
+    <section id="around-disvalue">
       <section class="content"></section>
     </section>
-    <section>
-      <section class="content"></section>
-    </section>
-    <section>
+    <section id="around-planning">
       <section class="content"></section>
     </section>
     <footer></footer>
