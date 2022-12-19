@@ -38,7 +38,7 @@ main {
   justify-content: flex-start;
 }
 
-header {
+.relative {
   position: relative;
 }
 
@@ -48,6 +48,14 @@ header {
   left: 0;
 
   z-index: -3;
+}
+
+.bg-dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -4;
 }
 
 header,
@@ -113,6 +121,13 @@ h3 {
 }
 
 .bg {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-dark {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -222,17 +237,36 @@ a {
 
 .smallest-h {
   font-size: 24px;
+  font-family: Neucha;
   color: var(--light-dark);
+}
+
+.b-discription {
+  font-size: 34px;
+  font-family: Neucha;
+  line-height: 1.2;
 }
 
 .how-brown {
   font-weight: bold;
+  font-family: Open_Sans;
+  font-size: 14px;
   color: var(--white);
 }
 
 .how-white {
   font-weight: bold;
+  font-family: Open_Sans;
+  font-size: 14px;
   color: var(--brown);
+}
+
+.dark-section {
+  color: var(--white);
+}
+
+.dark-section .smallest-h {
+  color: var(--white);
 }
 
 /* color bg */
@@ -242,6 +276,10 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
+}
+
+.bg-dark {
+  background-color: var(--brown);
 }
 
 .btn {
