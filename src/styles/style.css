@@ -105,6 +105,36 @@ header > .content {
   left: 0;
 }
 
+#mailing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mailing {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.footer-column-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#footer-inline-flex {
+  display: inline-flex;
+}
+
+input {
+  flex-grow: 2;
+}
+
+.text-center {
+  text-align: center;
+}
+
 /* box */
 
 body {
@@ -185,6 +215,38 @@ main > section {
   padding-top: 6px;
   padding-left: 10px;
   padding-bottom: 4px;
+}
+
+#mailing-container {
+  width: 100vw;
+  padding: 100px 0 60px 0;
+  margin: 0;
+}
+
+#mailing {
+  height: 190px;
+  width: 1110px;
+}
+
+#footer-inline-flex {
+  width: 100%;
+}
+
+input {
+  padding: 15px;
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  width: 70px;
+  height: 50px;
+}
+
+#contacts {
+  padding: 0 0 100px 0;
+  margin: 0;
 }
 
 /* font */
@@ -269,6 +331,19 @@ a {
   color: var(--white);
 }
 
+#mailing * {
+  color: var(--white);
+}
+
+#font14 {
+  font-size: 14px;
+}
+
+.real-link {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
 /* color bg */
 
 .bg {
@@ -304,6 +379,20 @@ a {
 
 .how-white {
   background-color: var(--white);
+}
+
+#mailing {
+  background-color: var(--dark);
+}
+
+input {
+  border: none;
+}
+
+button {
+  border: none;
+  border-radius: 0;
+  background-color: var(--main);
 }
 
 /* animation */
